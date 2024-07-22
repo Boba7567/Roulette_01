@@ -80,7 +80,7 @@ function rotateRoulette() {
         } else {
             selectedItemIndex = getSelectedItem(); // 選択されたアイテムのインデックスを保存
             const selectedItem = items[selectedItemIndex];
-            resultDiv.textContent = `${selectedItem}に行こう!!!`;
+            resultDiv.textContent = `${selectedItem}に行こう！！！`;
             spinSound.pause();
             spinSound.currentTime = 0;
             drawRoulette(); // 選択されたアイテムに色を付けるために再描画
